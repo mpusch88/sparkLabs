@@ -10,6 +10,10 @@ To see all docker containers:
 
 	docker container ls -a
 
+To stop a docker container;
+
+	docker stop <container_name>
+
 To (force) remove a specific container:
 
 	docker container rm -f <container_name>
